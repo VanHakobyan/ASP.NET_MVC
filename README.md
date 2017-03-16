@@ -1,9 +1,8 @@
-<p align="centre">
+<p align="center">
 <img src="http://redtic.org/sites/default/files/imagenicon/asp-net-logo_0.png">
 </p>
 
 <p><b>ASP.NET</b> is an <a href="https://en.wikipedia.org/wiki/Open_source" class="mw-redirect" title="Open source">open-source</a>
-
 <a href="https://en.wikipedia.org/wiki/Server-side_scripting" title="Server-side scripting">server-side</a> 
 <a href="https://en.wikipedia.org/wiki/Web_application_framework" class="mw-redirect" title="Web application framework">web application framework</a> 
 designed for <a href="https://en.wikipedia.org/wiki/Web_development" title="Web development">web development</a> to produce 
