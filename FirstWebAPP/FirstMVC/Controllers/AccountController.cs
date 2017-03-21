@@ -132,7 +132,7 @@ namespace FirstMVC.Controllers
                     ModelState.AddModelError("", "Invalid code.");
                     return View(model);
             }
-        }
+        } 
 
         //
         // GET: /Account/Register

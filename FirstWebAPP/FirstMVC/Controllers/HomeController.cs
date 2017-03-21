@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace FirstMVC.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController: Controller
     {
         public ActionResult Index()
         {
@@ -26,5 +26,10 @@ namespace FirstMVC.Controllers
 
             return View();
         }
+        public ActionResult Test()
+        {
+            return View();
+        }
+      
     }
 }
