@@ -10,6 +10,7 @@ namespace FirstMVC.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Variable = RouteData.Values["id"];
             return View();
         }
 
@@ -29,6 +30,11 @@ namespace FirstMVC.Controllers
         public ActionResult Test()
         {
             return View();
+        }
+        public ActionResult Custom(int? id)
+        {
+            ViewBag.Variable = id;
+            return View("Index");
         }
       
     }
