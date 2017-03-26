@@ -36,6 +36,10 @@ namespace FirstMVC.Controllers
             ViewBag.Variable = id;
             return View("Index");
         }
+        public ActionResult newCustom()
+        {
+            return View();
+        }
       
     }
 }
